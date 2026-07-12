@@ -1,0 +1,217 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html, body{
+    height: 100vh;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+:root{
+    --primary-organge: hsl(26, 100%, 55%);
+    --primary-pale-orange: hsl(25, 100%, 94%);
+    --neutral-dark-blue: hsl(220, 13%, 13%);
+    --neutral-grayish-blue: hsl(219, 9%, 45%);
+    --neutral-light-grayish-blue: hsl(223, 64%, 98%);
+    --neutral-white: hsl(0, 0%, 100%);
+    --neutral-black: hsl(0, 0%, 0%);
+    --faint-white:#f7f7f7;
+    --spacing-two: 2em;
+    --spacing: 1em;
+    --spacing-three-quaters: 0.75em;
+    --spacing-half: 0.5em;
+
+    --next-btn-hover: hsla(217, 9%, 45%, 0.536);
+    --btn-padding: 0.8em 1.6em;
+    --header-padding: 5% 1em ;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--header-padding);
+    border-bottom: 1px solid var(--neutral-light-grayish-blue);
+}
+.header-left, .header-right{
+    display: flex;
+    gap: var(--spacing-three-quaters);
+}
+.menu-icon, .close-icon, .cart-icon, .avatar{
+    cursor: pointer;
+}
+.menu-icon{
+    width: 1.2em;
+}
+.cart-container{
+    position: relative;
+}
+.cart-count{
+    position: absolute;
+    top: -0.5em;
+    right: -0.5em;
+    background-color: var(--primary-organge);
+    color: var(--neutral-white);
+    font-size: .75rem;
+    font-weight: 700;
+    padding: 0.2em .5em;
+    border-radius: 50%;
+}
+.nav{
+    padding: var(--spacing);
+    position: fixed;
+    top: 0;
+    left: -100%;
+    background-color: var(--neutral-white);
+    height: 100vh;
+    width: 70%;
+    z-index: 1;
+    transition: left 250ms ease-in-out;
+}
+.nav.active{
+    left: 0;
+    transition: left 250ms ease-in-out;
+}
+.close-icon{
+     margin-bottom: var(--spacing);
+     width: .8em;
+}
+.nav-list{
+    list-style: none;   
+}
+.nav-link{
+    margin-bottom: var(--spacing-three-quaters);
+    border-bottom: 1px solid var(--neutral-light-grayish-blue);
+}
+.nav-link a{
+    text-decoration: none;
+    color: var(--neutral-dark-blue);
+    font-weight: 700;
+    transition: color 250ms ease-in-out;
+}
+.nav-link a:hover{
+    color: var(--primary-organge);
+}
+.avatar, .cart-icon{
+    width: 1.7em;
+}
+
+
+
+@media (min-width: 768px) {
+    .wrapper{
+    width: 90%;
+    margin: 0 auto;
+    }
+    .header-left{
+        gap: var(--spacing-two);
+    }
+    .logo{
+        order: -1;
+    }
+    .nav{
+        position: static;
+        height: auto;
+        width: auto;
+        display: flex;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+    }
+    .nav-list{
+        display: flex;
+        gap: var(--spacing);
+    }
+    .nav-link{
+        margin-bottom: 0;
+        border-bottom: none;
+    }
+    .nav-link a{
+        color: var(--neutral-grayish-blue);
+    }
+    .menu-icon, .close-icon{
+        display: none;
+    }
+}
+
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: var(--spacing);
+  margin-top: -22px;
+  color:var(--neutral-white);
+  font-weight: bold;
+  transition: 0.6s ease;
+  border-radius: 0 1em 1em 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 1em 0 0 1em;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color:var(--next-btn-hover);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+/*counter*/
+css
+.width-container {
+    display: none;
+}
+
+.display-width {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #E6E6E6;
+    padding: .3em;
+    font-size: .85em;
+}

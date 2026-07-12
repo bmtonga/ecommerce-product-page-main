@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | E-commerce product page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght,YOPQ@100..900,300&display=swap" rel="stylesheet">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 0.6875rem; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <span id="width" class="width-container"></span>
+
+
+<header class="header wrapper">
+    <div class="header-left">
+        <img src="images/icon-menu.svg" alt="Menu Icon" class="menu-icon">
+        <nav class="nav" id="nav">
+          <img src="images/icon-close.svg" alt="close menu icon" class="close-icon" id="close-icon">
+          <ul class="nav-list">
+            <li class="nav-link"><a href="#">Collections</a></li>
+            <li class="nav-link"><a href="#">Men</a></li>
+            <li class="nav-link"><a href="#">Women</a></li>
+            <li class="nav-link"><a href="#">About</a></li>
+            <li class="nav-link"><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <img src="images/logo.svg" alt="Sneakers e-commerce product page store logo" class="logo">
+    </div>
+      <div class="header-right">
+        <div class="cart-container">
+          <img src="images/icon-cart.svg" alt="Cart Icon" class="cart-icon">
+          <span class="cart-count" id="cart-count">0</span>
+        </div>
+        <img src="images/image-avatar.png" alt="User Avatar" class="avatar">
+      </div>
+</header> 
+
+
+<main class="main wrapper">
+
+  <div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="images/image-product-1.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="images/image-product-2.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="images/image-product-3.jpg" style="width:100%">
+</div>
+<div class="mySlides fade">
+  <img src="images/image-product-4.jpg" style="width:100%">
+</div>
+
+
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+
+</div>
+
+
+<div class="textContent">
+
+</div>
+</main>
+  Sneaker Company
+
+  Fall Limited Edition Sneakers
+
+  These low-profile sneakers are your perfect casual wear companion. Featuring a 
+  durable rubber outer sole, they’ll withstand everything the weather can offer.
+
+  $125.00
+  50%
+  $250.00
+
+  0
+  Add to cart
+  
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+    Coded by <a href="#">Bernard K. Mtonga</a>.
+  </footer>
+  <script src="script.js" type="module"></script>
+</body>
+</html>
