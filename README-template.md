@@ -1,29 +1,22 @@
-# Frontend Mentor - E-commerce product page solution
+# Frontend Mentor - E-commerce product page
 
-This is a solution to the [E-commerce product page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/ecommerce-product-page-UPsZ9MJp6). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+![Design preview for the E-commerce product page coding challenge](./design/desktop-preview.jpg)
 
-## Table of contents
+## Welcome! 👋
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-  - [AI Collaboration](#ai-collaboration)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
+Thanks for checking out this front-end coding challenge.
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
 
-## Overview
+**To do this challenge, you need a good understanding of HTML, CSS and JavaScript.**
 
-### The challenge
+## The challenge
 
-Users should be able to:
+Your challenge is to build out this e-commerce product page and get it looking as close to the design as possible.
+
+You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+
+Your users should be able to:
 
 - View the optimal layout for the site depending on their device's screen size
 - See hover states for all interactive elements on the page
@@ -32,95 +25,74 @@ Users should be able to:
 - Add items to the cart
 - View the cart and remove items from it
 
-### Screenshot
+### Want some support on the challenge? 
 
-![](./screenshot.jpg)
+[Join our community](https://www.frontendmentor.io/community) and ask questions in the **#help** channel.
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
+## Where to find everything
 
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
+Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design.
 
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
+The designs are in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`.
 
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+If you would like the Figma design file to gain experience using professional tools and build more accurate projects faster, you can [subscribe as a PRO member](https://www.frontendmentor.io/pro).
 
-### Links
+You will find all the required assets in the `/images` folder. The assets are already optimized.
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+There is also a `style-guide.md` file containing the information you'll need, such as color palette and fonts.
 
-## My process
+## Using AI coding assistants
 
-### Built with
+We've included two files to help you if you're using AI coding assistants (like Claude, GitHub Copilot, Cursor, etc.) while working on this challenge:
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+- `AGENTS.md` - Contains detailed instructions for AI assistants on how to help you with this challenge. It's tailored to this challenge's difficulty level.
+- `CLAUDE.md` - A pointer file that directs Claude-based tools to the AGENTS.md instructions.
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+**How to use them:** You don't need to do anything! These files are automatically detected by most AI coding tools.
 
-### What I learned
+**Note:** These files are designed to help you *learn*, not to do the work for you. The AI is instructed to ask questions, give hints, and explain concepts rather than writing complete solutions.
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+## Building your project
 
-To see how you can add code snippets, see below:
+Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps.
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
+1. Initialize your project as a public repository on [GitHub](https://github.com/).
+2. Configure your repository to publish your code to a web address (for sharing your live URL).
+3. Look through the designs in `/design` to plan your structure and CSS classes.
+4. Before adding styles, structure your content with semantic HTML.
+5. Write base styles (for example, `font-family` and `font-size`) before component styles.
+6. Work through the page top-to-bottom, validating layout and spacing as you go.
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+## Deploying your project
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+As mentioned above, there are many ways to host your project for free. Our recommended hosts are:
 
-### Continued development
+- [GitHub Pages](https://pages.github.com/)
+- [Vercel](https://vercel.com/)
+- [Netlify](https://www.netlify.com/)
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+You can host your site using one of these solutions or any other trusted provider.
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+## Submitting your solution
 
-### Useful resources
+Submit your solution on the platform for the rest of the community to see.
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+Follow our ["Complete guide to submitting solutions"](https://www.frontendmentor.io/guides/how-to-submit-solutions) for tips.
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+## Sharing your solution
 
-### AI Collaboration
+There are multiple places you can share your solution:
 
-Describe how you used AI tools (if any) during this project. This helps demonstrate your ability to work effectively with AI assistants.
+1. Share your solution page in the **#finished-projects** channel of the [community](https://www.frontendmentor.io/community).
+2. Share on [X (formerly Twitter)](https://x.com/frontendmentor) and mention **@frontendmentor**, including the repo and live URLs in your post.
+3. Share your solution on [LinkedIn](https://www.linkedin.com/company/frontend-mentor/).
+4. Blog about your experience building your project (workflow, technical choices, and what you learned).
 
-- What tools did you use (e.g., ChatGPT, Claude, GitHub Copilot)?
-- How did you use them (e.g., debugging, generating boilerplate, brainstorming solutions)?
-- What worked well? What didn't?
+## Got feedback for us?
 
-**Note: Delete this note and the content above if you didn't use AI, or replace with your own experience.**
+We love receiving feedback! We're always looking to improve our challenges and our platform.
 
-## Author
+If you have anything you'd like to mention, please email hi[at]frontendmentor[dot]io.
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+**Have fun building!** 🚀
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
