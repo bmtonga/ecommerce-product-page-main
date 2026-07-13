@@ -273,6 +273,7 @@ img {vertical-align: middle;}
     font-size: 1em;
 }
 .cart-content{
+    display: none;
     position:absolute;
     top: 15%;
     right: 9.5%;
@@ -281,6 +282,9 @@ img {vertical-align: middle;}
     border-radius: .5em;
     background-color: var(--neutral-white);
     padding: var(--spacing-two);
+}
+.cart-content.active {
+    display: block;
 }
 .cart-content-details{
     font-size: .8em;
