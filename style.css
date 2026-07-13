@@ -25,7 +25,9 @@ html, body{
     --btn-padding: 0.8em 1.6em;
     --header-padding: 5% 1em ;
 }
-
+body{
+    position: relative;
+}
 .header{
     display: flex;
     justify-content: space-between;
@@ -37,7 +39,7 @@ html, body{
     display: flex;
     gap: var(--spacing-three-quaters);
 }
-.menu-icon, .close-icon, .cart-icon, .avatar{
+.menu-icon, .close-icon, .cart-icon, .avatar, .minus-icon, .plus-icon, .btn{
     cursor: pointer;
 }
 .menu-icon{
@@ -261,7 +263,31 @@ img {vertical-align: middle;}
     padding: var(--header-padding);
     font-size: 1em;
 }
+.cart-content{
+    position:absolute;
+    top: 20%;
+    right: 5%;
+    max-width: 400px;
+    width: 90%;
+    border-radius: .5em;
+    background-color: var(--neutral-white);
+    padding: var(--spacing-two);
+}
+.items{
+    display: flex;
+    gap: var(--spacing);
+    margin: var(--spacing) 0;
+}
+.item-image{
+    width: 15%;
+}
+@media (min-width: 768px) {
 
+    .cart-content{
+        top: 25%;
+        right: 7%;
+    }
+}
 /*counter*/
 css
 .width-container {
