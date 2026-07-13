@@ -1,13 +1,22 @@
-document.getElementById("close-icon").addEventListener("click", function() {
-  document.getElementById("nav").classList.remove("active");
-});
+const get = (id) => document.getElementById(id);
 
-document.querySelector(".menu-icon").addEventListener("click", function() {
-  document.getElementById("nav").classList.add("active");
-});
+const menuIcon = get("menu-icon");
+const closeIcon = get("close-icon");
+const nav = get("nav");
+
+if (menuIcon && closeIcon && nav) {
+    menuIcon.addEventListener("click", () => {
+        nav.classList.add("active");
+    });
+
+    closeIcon.addEventListener("click", () => {
+        nav.classList.remove("active");
+    });
+}
+
 
 let slideIndex = 1;
-showSlides(slideIndex);
+  showSlides(slideIndex);
 
 function plusSlides(n) {
   showSlides(slideIndex += n);
