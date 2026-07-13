@@ -269,7 +269,7 @@ img {vertical-align: middle;}
 .attribution{
     color: var(--faint-white);
     background-color: var(--neutral-dark-blue);
-    padding: var(--spacing-two);
+    padding: 3% var(--spacing-two) ;
     font-size: 1em;
 }
 .cart-content{
@@ -308,7 +308,7 @@ img {vertical-align: middle;}
         justify-content: space-between;
         margin: var(--spacing-two) auto;
         gap: var(--spacing-two);
-        width: 80%;
+        width: 75%;
     }
     .slideshow-container {
         width: 80%;
