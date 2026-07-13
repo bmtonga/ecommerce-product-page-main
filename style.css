@@ -16,6 +16,7 @@ html, body{
     --neutral-white: hsl(0, 0%, 100%);
     --neutral-black: hsl(0, 0%, 0%);
     --faint-white:#f7f7f7;
+
     --spacing-two: 2em;
     --spacing: 1em;
     --spacing-three-quaters: 0.75em;
@@ -40,7 +41,14 @@ body{
     display: flex;
     gap: var(--spacing-three-quaters);
 }
-.menu-icon, .close-icon, .cart-icon, .avatar, .minus-icon, .plus-icon, .btn{
+.menu-icon,
+.close-icon, 
+.cart-icon, 
+.avatar, 
+.minus-icon, 
+.plus-icon, 
+.btn, 
+.delete{
     cursor: pointer;
 }
 .menu-icon{
