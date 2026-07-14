@@ -254,29 +254,29 @@ document.addEventListener("click", (event) => {
 // Window Width Debugger
 // ======================================================
 
-const width = get("width");
+//const width = get("width");
 
-function updateWidth() {
+//function updateWidth() {
 
-    if (!width) return;
+   // if (!width) return;
 
-    width.textContent = `${window.innerWidth}px`;
+   // width.textContent = `${window.innerWidth}px`;
 
-    width.classList.add("display-width");
+   // width.classList.add("display-width");
 
-    clearTimeout(updateWidth.timeout);
+   // clearTimeout(updateWidth.timeout);
 
-    updateWidth.timeout = setTimeout(() => {
+   // updateWidth.timeout = setTimeout(() => {
 
-        width.classList.remove("display-width");
+   //     width.classList.remove("display-width");
 
-    }, 1500);
+  //  }, 1500);
 
-}
+//}
 
-window.addEventListener("resize", updateWidth);
+//window.addEventListener("resize", updateWidth);
 
-updateWidth();
+//updateWidth();
 
 
 // ======================================================
