@@ -85,13 +85,14 @@ body{
     transition: left 250ms ease-in-out;
 }
 .close-icon{
-     margin-bottom: var(--spacing);
+     margin-bottom: var(--spacing-two);
      width: 1em;
      padding: 0;
      float: right;
 }
 .nav-list{
     list-style: none;   
+    margin-top: var(--spacing-two);
    
 }
 .nav-link{
