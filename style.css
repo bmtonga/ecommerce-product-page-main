@@ -209,8 +209,13 @@ img {vertical-align: middle;}
 .text-content, .item-actions, .price{
     gap: var(--spacing);
 }
-.text-content p,.faint, .original-price  {
+.text-content p,.faint, .original-price, .empty-cart  {
        color: var(--neutral-grayish-blue);
+}
+.empty-cart{
+    text-align: center;
+    font-weight: 550;
+    padding: var(--spacing-two);
 }
 .faint{
     text-transform: uppercase;
