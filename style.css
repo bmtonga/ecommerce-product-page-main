@@ -275,7 +275,7 @@ img {vertical-align: middle;}
 .cart-content{
     display: none;
     position:absolute;
-    top: 15%;
+    top: 9%;
     right: 9.5%;
     max-width: 300px;
     width: 90%;
@@ -298,7 +298,13 @@ img {vertical-align: middle;}
     width: 25%;
     border-radius: .5em;
 }
-
+@media (min-width: 400px) {
+    .cart-content{
+        top: 8%;
+        right: 7%;
+        border: 2px solid var(--neutral-light-grayish-blue);
+    }
+}
 @media (min-width: 768px) {
    /* body{
         overflow: hidden;
