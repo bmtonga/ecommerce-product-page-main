@@ -78,6 +78,7 @@ body{
     width: 70%;
     z-index: 1;
     transition: left 250ms ease-in-out;
+    padding: 2em;
 }
 .nav.active{
     left: 0;
@@ -85,14 +86,18 @@ body{
 }
 .close-icon{
      margin-bottom: var(--spacing);
-     width: .8em;
+     width: 1em;
+     padding: 0;
+     float: right;
 }
 .nav-list{
     list-style: none;   
+   
 }
 .nav-link{
-    margin-bottom: var(--spacing-three-quaters);
-    border-bottom: 1px solid var(--neutral-light-grayish-blue);
+    font-size: 1.2em;
+ margin-bottom: var(--spacing);   
+  border-bottom: 1px solid var(--neutral-light-grayish-blue);
 }
 .nav-link a{
     text-decoration: none;
