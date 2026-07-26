@@ -98,7 +98,17 @@ body{
 .nav-link{
     font-size: 1.2em;
  margin-bottom: var(--spacing);   
-  border-bottom: 1px solid var(--neutral-light-grayish-blue);
+ position: relative;
+}
+.nav-link::before{
+    position: absolute;
+    content: "";
+    height: 1px;
+    background-color: var(--neutral-grayish-blue);
+    width: 100%;
+    bottom: -.5em;
+    opacity: .5;
+
 }
 .nav-link a{
     text-decoration: none;
