@@ -280,12 +280,14 @@ img {vertical-align: middle;}
     margin: 0;
 
 }
-
+.cart-heading{
+    font-size: 1.2em;
+}
 .attribution{
     color: var(--faint-white);
     background-color: var(--neutral-dark-blue);
     padding: 1.7em var(--spacing-two) ;
-    font-size: 1em;
+    font-size: .85rem;
 }
 .cart-content{
     display: none;
