@@ -25,6 +25,13 @@ html, body{
     --btn-padding: 0.8em 1.6em;
     --header-padding: 1em ;
 }
+::-webkit-scrollbar-thumb{
+    background-color: var(--primary-organge);
+    border-radius: 5px;
+}
+*{
+    scrollbar-color:  hsl(26, 63%, 49%) var(--neutral-light-grayish-blue);
+}
 body{
     position: relative;
    min-height: 100vh;  
