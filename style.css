@@ -23,13 +23,18 @@ html, body{
 
     --next-btn-hover: hsla(217, 9%, 45%, 0.536);
     --btn-padding: 0.8em 1.6em;
-    --header-padding: 1.5em 1em ;
+    --header-padding: 1em ;
 }
 body{
     position: relative;
-   min-height: 100vh;
-    
+   min-height: 100vh;  
 }
+@media (min-width:1000px) {
+     body{
+        overflow-y: hidden;
+     }
+}
+
 .header{
     display: flex;
     justify-content: space-between;
@@ -124,7 +129,6 @@ body{
 }
 
 
-
 @media (min-width: 768px) {
     .wrapper{
     width: 90%;
@@ -133,8 +137,11 @@ body{
     .header-left{
         gap: var(--spacing-two);
     }
+    
     .logo{
         order: -1;
+       height: 25px;
+       margin-top: auto;
     }
     .nav{
         position: static;
